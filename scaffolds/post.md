@@ -3,5 +3,5 @@ title: {{ title }}
 date: {{ date }}
 category:
 tags:
-excerpt:
+description:
 ---
