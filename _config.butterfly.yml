@@ -802,7 +802,7 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work
 font:
-  global_font_size: 15px
+  global_font_size: 16px
   code_font_size: 14px
   font_family:
   code_font_family:
