@@ -91,3 +91,8 @@ div#archive {
 .card-info-social-icons i:hover {
     transform: rotate(0) !important;
 }
+
+/* 修复 MathJax 块级公式顶部被截断的问题 */
+mjx-container {
+    overflow: visible !important;
+}
