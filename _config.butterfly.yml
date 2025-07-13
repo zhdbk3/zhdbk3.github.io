@@ -228,7 +228,7 @@ post_edit:
 
 # Related Articles
 related_post:
-  enable: true
+  enable: false
   # Number of posts displayed
   limit: 6
   # Choose: created / updated
