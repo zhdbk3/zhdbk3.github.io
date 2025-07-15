@@ -22,7 +22,7 @@ print(latex(a))
 得到结果 `\left[\begin{matrix}114\\514\end{matrix}\right]`：
 
 $$
-\left[\begin{matrix}114\\514\end{matrix}\right]
+\left[\begin{matrix}114\\\\514\end{matrix}\right]
 $$
 
 我就一普普通通的~~小南梁~~小高中生，这玩意 tm 是个啥？
