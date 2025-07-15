@@ -66,7 +66,7 @@ import sympy
 class CustomLatexPrinter(LatexPrinter):
     def _print_MatrixBase(self, expr):
         if expr.shape[1] == 1:
-            return fr"\left( {', '.join(map(str, expr))} \right)"
+            return fr"\left( {', '.join(map(self.doprint, expr))} \right)"
         else:
             return super()._print_MatrixBase(expr)
 
