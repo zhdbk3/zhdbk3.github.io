@@ -1,6 +1,7 @@
 ---
 title: 可橙赋
 date: 2025-07-18 11:40
+updated: 2025-7-18 12:23
 category: 人文
 tags: [ 文言 ]
 description: 星陨犹闻声，草腐孰知痛？
@@ -38,6 +39,6 @@ description: 星陨犹闻声，草腐孰知痛？
 ## 参考资料
 
 - [机器人锦标赛冠军被送戒网瘾学校后失联多天，涉事机构曾遭诉](https://www.thepaper.cn/newsDetail_forward_10446063)
-- [可橙（本站站长）事件情况经过与报告](https://github.com/MoeMoesakura68000/MtF-Wiki/blob/master/README.md)
-- [时间线之外的 Kench - 翰林的小站](https://blog.hanlin.press/2024/09/Kench-Outside-the-Timeline/)
+- [可橙（前 MtF.wiki 站长）事件情况经过与报告](https://github.com/MoeMoesakura68000/MtF-Wiki/blob/master/README.md)
 - [她出来后怎样——可橙事件的遗憾后续 - 知乎](https://zhuanlan.zhihu.com/p/699852973) | [她出来后怎样——可橙事件的遗憾后续](https://blog.yunyi.beiyan.us/posts/WhatHappenedAfterSheCameOut/)
+- [时间线之外的 Kench - 翰林的小站](https://blog.hanlin.press/2024/09/Kench-Outside-the-Timeline/)
