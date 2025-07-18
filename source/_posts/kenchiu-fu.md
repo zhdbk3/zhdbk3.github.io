@@ -1,10 +1,11 @@
 ---
 title: 可橙赋
 date: 2025-07-18 11:40
-updated: 2025-7-18 12:23
+updated: 2025-7-18 15:35
 category: 人文
 tags: [ 文言 ]
 description: 星陨犹闻声，草腐孰知痛？
+cover: https://avatars0.githubusercontent.com/u/27522149
 ---
 
 > 本文主要由 AI 创作，由我整理、删改。
