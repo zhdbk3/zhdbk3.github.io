@@ -1,10 +1,25 @@
 ---
 title: 拥抱 uv：不科学上网，完成 uv 的安装和 Python 与第三方库的换源
 date: 2025-07-17 14:42:33
+updated: 2025-7-28 11:35
 category: 技术
 tags: [ Python ]
 description: 感觉和 pnpm 的逻辑好像，就连安装时遇到的困难也一样。
 ---
+
+# 自定义 uv 与 Python 的安装路径
+
+官方文档：
+
+- https://docs.astral.sh/uv/reference/environment/#uv_install_dir
+- https://docs.astral.sh/uv/reference/environment/#uv_python_install_dir
+
+只要设置两个环境变量即可：
+
+|          变量名          |     变量值     |
+|:---------------------:|:-----------:|
+|    UV_INSTALL_DIR     |   uv 安装路径   |
+| UV_PYTHON_INSTALL_DIR | Python 安装路径 |
 
 # 安装 uv
 
