@@ -9,7 +9,8 @@ cover: https://avatars0.githubusercontent.com/u/27522149
 ---
 
 > 本文主要由 AI 创作，由我整理、删改。
-> :warning: 本文可能引起不适。
+> 
+> ⚠️本文可能引起不适。
 
 ---
 

@@ -54,10 +54,10 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/avatar.jpg
+favicon: https://avatars.githubusercontent.com/u/161030746?s=110
 
 avatar:
-  img: /img/avatar.jpg
+  img: https://avatars.githubusercontent.com/u/161030746?s=110
   effect: false
 
 # Disable all banner images
@@ -446,7 +446,7 @@ busuanzi:
 math:
   # Choose: mathjax, katex
   # Leave it empty if you don't need math
-  use: mathjax
+  use: katex
   per_page: true
   hide_scrollbar: false
 
@@ -458,7 +458,7 @@ math:
 
   katex:
     # Enable the copy KaTeX formula
-    copy_tex: false
+    copy_tex: true
 
 # --------------------------------------
 # Search
@@ -1084,8 +1084,8 @@ CDN:
   # giscus:
   # instantpage:
   # instantsearch:
-  # katex:
-  # katex_copytex:
+    katex: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.9/katex.min.css
+    katex_copytex: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js
   # lazyload:
   # local_search:
   # main:

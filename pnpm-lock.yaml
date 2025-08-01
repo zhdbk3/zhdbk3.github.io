@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@renbaoshuo/markdown-it-katex':
+        specifier: ^2.0.2
+        version: 2.0.2(katex@0.16.22)(markdown-it@13.0.2)
       hexo:
         specifier: ^7.3.0
         version: 7.3.0(chokidar@3.6.0)
@@ -50,9 +53,9 @@ importers:
       hexo-wordcount:
         specifier: ^6.0.1
         version: 6.0.1
-      markdown-it-emoji:
-        specifier: ^3.0.0
-        version: 3.0.0
+      katex:
+        specifier: ^0.16.22
+        version: 0.16.22
       markdown-it-footnote:
         specifier: ^4.0.0
         version: 4.0.0
@@ -81,6 +84,12 @@ packages:
   '@babel/types@7.27.3':
     resolution: {integrity: sha512-Y1GkI4ktrtvmawoSq+4FCVHNryea6uR+qUQy0AGxLSsjCX0nVmkYQMBLHDkXZuo5hGx7eYdnIaslsdBFm7zbUw==}
     engines: {node: '>=6.9.0'}
+
+  '@renbaoshuo/markdown-it-katex@2.0.2':
+    resolution: {integrity: sha512-peKX5VcHY2DXQ2AQaTduWkGwaQ2QSlscoOqRmOt6Fm9W+WmYacWnkzGsQeLlDw/lg9ZPSkE/SPSZnJC/kDEwnA==}
+    peerDependencies:
+      katex: '*'
+      markdown-it: '>=6'
 
   a-sync-waterfall@1.0.1:
     resolution: {integrity: sha512-RYTOHHdWipFUliRFMCS4X2Yn2X8M87V/OpSqWzKKOGhzqyUxzyVmhHDH9sAvG+ZuQf/TAOFsLCpMw09I1ufUnA==}
@@ -188,6 +197,10 @@ packages:
   commander@5.1.0:
     resolution: {integrity: sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==}
     engines: {node: '>= 6'}
+
+  commander@8.3.0:
+    resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
+    engines: {node: '>= 12'}
 
   compressible@2.0.18:
     resolution: {integrity: sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==}
@@ -555,6 +568,10 @@ packages:
   jstransformer@1.0.0:
     resolution: {integrity: sha512-C9YK3Rf8q6VAPDCCU9fnqo3mAfOH6vUGnMcP4AQAYIEpWtfGLpwOTmZ+igtdK5y+VvI2n3CyYSzy4Qh34eq24A==}
 
+  katex@0.16.22:
+    resolution: {integrity: sha512-XCHRdUw4lf3SKBaJe4EvgqIuWwkPSo9XoeO8GjQW94Bp7TWv9hNhzZjZ+OH9yf1UmLygb7DIT5GSFQiyt16zYg==}
+    hasBin: true
+
   linkify-it@4.0.1:
     resolution: {integrity: sha512-C7bfi1UZmoj8+PQx22XyeXCuBlokoyWQL5pWSP+EI6nzRylyThouddufc2c1NDIcP9k5agmN9fLpA7VNJfIiqw==}
 
@@ -581,9 +598,6 @@ packages:
 
   markdown-it-emoji@2.0.2:
     resolution: {integrity: sha512-zLftSaNrKuYl0kR5zm4gxXjHaOI3FAOEaloKmRA5hijmJZvSjmxcokOLlzycb/HXlUFWzXqpIEoyEMCE4i9MvQ==}
-
-  markdown-it-emoji@3.0.0:
-    resolution: {integrity: sha512-+rUD93bXHubA4arpEZO3q80so0qgoFJEKRkRbjKX8RTdca89v2kfyF+xR3i2sQTwql9tpPZPOQN5B+PunspXRg==}
 
   markdown-it-footnote@3.0.3:
     resolution: {integrity: sha512-YZMSuCGVZAjzKMn+xqIco9d1cLGxbELHZ9do/TSYVzraooV8ypsppKNmUJ0fVH5ljkCInQAtFpm8Rb3eXSrt5w==}
@@ -961,6 +975,11 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
+  '@renbaoshuo/markdown-it-katex@2.0.2(katex@0.16.22)(markdown-it@13.0.2)':
+    dependencies:
+      katex: 0.16.22
+      markdown-it: 13.0.2
+
   a-sync-waterfall@1.0.1: {}
 
   abbrev@2.0.0: {}
@@ -1062,6 +1081,8 @@ snapshots:
   command-exists@1.2.9: {}
 
   commander@5.1.0: {}
+
+  commander@8.3.0: {}
 
   compressible@2.0.18:
     dependencies:
@@ -1491,6 +1512,10 @@ snapshots:
       is-promise: 2.2.2
       promise: 7.3.1
 
+  katex@0.16.22:
+    dependencies:
+      commander: 8.3.0
+
   linkify-it@4.0.1:
     dependencies:
       uc.micro: 1.0.6
@@ -1514,8 +1539,6 @@ snapshots:
   markdown-it-deflist@2.1.0: {}
 
   markdown-it-emoji@2.0.2: {}
-
-  markdown-it-emoji@3.0.0: {}
 
   markdown-it-footnote@3.0.3: {}
 

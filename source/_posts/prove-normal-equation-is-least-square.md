@@ -51,14 +51,14 @@ $$
 
 寻找最小二乘解，从几何角度看，就是在 $\boldsymbol{A}$ 的列空间 $\operatorname{Col}(\boldsymbol{A})$（由 $\boldsymbol{A}$ 各个列向量张成的空间）中寻找与 $\boldsymbol{y}$ 最接近的向量（即 $\boldsymbol{y}$ 在 $\operatorname{Col}(\boldsymbol{A})$ 中的正交投影）。那么，正如平面外一点到平面，垂线段最短，想要 $\boldsymbol{y}$ 与 $\boldsymbol{A} \boldsymbol{x}$ 的残差 $\boldsymbol{r}$ 最短，那 $\boldsymbol{r}$ 就必须与 $\operatorname{Col}(\boldsymbol{A})$ 正交。
 
-与 $\operatorname{Col}(\boldsymbol{A})$ 正交，就是和它的每个基向量都正交（内积等于 0）。记 $\boldsymbol{A} = \begin{bmatrix} \boldsymbol{c}\_{1} & \boldsymbol{c}\_{2} & \cdots & \boldsymbol{c}\_{n} \end{bmatrix}$，那么：
+与 $\operatorname{Col}(\boldsymbol{A})$ 正交，就是和它的每个基向量都正交（内积等于 0）。记 $\boldsymbol{A} = \begin{bmatrix} \boldsymbol{c}_{1} & \boldsymbol{c}_{2} & \cdots & \boldsymbol{c}_{n} \end{bmatrix}$，那么：
 
 $$
-\left\\{
+\left\{
 \begin{array}{c}
-\boldsymbol{c}\_{1}^{\mathrm{T}} \boldsymbol{r} = 0 \\\\
-\boldsymbol{c}\_{2}^{\mathrm{T}} \boldsymbol{r} = 0 \\\\
-\vdots \\\\
+\boldsymbol{c}\_{1}^{\mathrm{T}} \boldsymbol{r} = 0 \\
+\boldsymbol{c}\_{2}^{\mathrm{T}} \boldsymbol{r} = 0 \\
+\vdots \\
 \boldsymbol{c}\_{n}^{\mathrm{T}} \boldsymbol{r} = 0
 \end{array}
 \right.
