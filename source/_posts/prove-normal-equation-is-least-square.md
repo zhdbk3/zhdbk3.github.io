@@ -56,10 +56,10 @@ $$
 $$
 \left\{
 \begin{array}{c}
-\boldsymbol{c}\_{1}^{\mathrm{T}} \boldsymbol{r} = 0 \\
-\boldsymbol{c}\_{2}^{\mathrm{T}} \boldsymbol{r} = 0 \\
+\boldsymbol{c}_{1}^{\mathrm{T}} \boldsymbol{r} = 0 \\
+\boldsymbol{c}_{2}^{\mathrm{T}} \boldsymbol{r} = 0 \\
 \vdots \\
-\boldsymbol{c}\_{n}^{\mathrm{T}} \boldsymbol{r} = 0
+\boldsymbol{c}_{n}^{\mathrm{T}} \boldsymbol{r} = 0
 \end{array}
 \right.
 $$
