@@ -1,6 +1,7 @@
 ---
 title: 证明：求解超定方程组时，通过构造正规方程得到的解就是最小二乘解
 date: 2025-07-31 22:40
+updated: 2025-8-1 9:55
 category: 数学
 tags: [ 线性代数 ]
 description: 哎呀~ 几何法得了 MVP！
@@ -48,7 +49,7 @@ $$
 
 因为我太菜了，~~导不出来~~ 基于矩阵求导的证明一个字也看不懂，所以这里换个角度，用几何法来证。哎呀~ 几何法得了 MVP！
 
-寻找最小二乘解，从几何角度看，就是在 $\boldsymbol{A}$ 的列空间 $\operatorname{Col}(\boldsymbol{A})$（由 $\boldsymbol{A}$ 各个列向量张成的空间）中寻找与 $\boldsymbol{y}$ 最接近的向量。那么，正如平面外一点点到平面，垂线段最短，想要 $\boldsymbol{y}$ 与 $\boldsymbol{A} \boldsymbol{x}$ 的残差 $\boldsymbol{r}$ 最短，那 $\boldsymbol{r}$ 就必须与 $\operatorname{Col}(\boldsymbol{A})$ 正交。
+寻找最小二乘解，从几何角度看，就是在 $\boldsymbol{A}$ 的列空间 $\operatorname{Col}(\boldsymbol{A})$（由 $\boldsymbol{A}$ 各个列向量张成的空间）中寻找与 $\boldsymbol{y}$ 最接近的向量（即 $\boldsymbol{y}$ 在 $\operatorname{Col}(\boldsymbol{A})$ 中的正交投影）。那么，正如平面外一点到平面，垂线段最短，想要 $\boldsymbol{y}$ 与 $\boldsymbol{A} \boldsymbol{x}$ 的残差 $\boldsymbol{r}$ 最短，那 $\boldsymbol{r}$ 就必须与 $\operatorname{Col}(\boldsymbol{A})$ 正交。
 
 与 $\operatorname{Col}(\boldsymbol{A})$ 正交，就是和它的每个基向量都正交（内积等于 0）。记 $\boldsymbol{A} = \begin{bmatrix} \boldsymbol{c}\_{1} & \boldsymbol{c}\_{2} & \cdots & \boldsymbol{c}\_{n} \end{bmatrix}$，那么：
 
@@ -81,7 +82,7 @@ $$
 \boldsymbol{A}^{\mathrm{T}} \boldsymbol{A} \boldsymbol{x} = \boldsymbol{A}^{\mathrm{T}} \boldsymbol{y}
 $$
 
-这，恰是正规方程。
+这，恰是正规方程！
 
 所以，求解超定方程组时，通过构造正规方程得到的解就是最小二乘解。
 
