@@ -47,7 +47,7 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  fab fa-github: https://github.com/zhdbk3 || Github
+  fab fa-github: https://github.com/zhdbk3 || GitHub
   fab fa-bilibili: https://space.bilibili.com/551409211 || 哔哩哔哩 || '#fb7299'
 
 # --------------------------------------
