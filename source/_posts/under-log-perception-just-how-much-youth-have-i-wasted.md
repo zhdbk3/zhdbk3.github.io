@@ -1,9 +1,10 @@
 ---
 title: 对数感知下，我究竟荒废了多少青春？
 date: 2025-07-13 15:26
+updated: 2025-8-4 10:30
 category: 数学
 tags: [ 函数, 自我 ]
-description: 欲买桂花同载酒，终不似，少年游。
+description: “最是人间留不住，朱颜辞镜花辞树。”
 ---
 
 > ⚠️本文可能引起不适。
@@ -25,7 +26,7 @@ $$
 将数据代入得：
 
 $$
-\lambda_线 = \frac{4}{21} \approx 19.05 \\%
+\lambda_线 = \frac{4}{21} \approx 19.05 \%
 $$
 
 如此看来，她的青春荒废了大约 $\frac{1}{5}$……吗？
@@ -51,8 +52,8 @@ $$
 
 $$
 \begin{aligned}
-f(t) & = \frac{\log t - \log t_\mathrm{min}}{\log t_\mathrm{max} - \log t_\mathrm{min}} \\\\
-& = \frac{\log \left( \frac{t}{t_\mathrm{min}} \right)}{\log \left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \\\\
+f(t) & = \frac{\log t - \log t_\mathrm{min}}{\log t_\mathrm{max} - \log t_\mathrm{min}} \\
+& = \frac{\log \left( \frac{t}{t_\mathrm{min}} \right)}{\log \left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \\
 & = \log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t}{t_\mathrm{min}} \right)
 \end{aligned}
 $$
@@ -69,9 +70,9 @@ $$
 
 $$
 \begin{aligned}
-\lambda_对 & = \frac{f(t_2) - f(t_1)}{f(t_3) - f(t_1)} \\\\
-& = \frac{\log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t_2}{t_\mathrm{min}} \right) - \log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t_1}{t_\mathrm{min}} \right)}{\log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t_3}{t_\mathrm{min}} \right) - \log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t_1}{t_\mathrm{min}} \right)} \\\\
-& = \frac{\log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t_2}{t_1} \right)}{\log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t_3}{t_1} \right)} \\\\
+\lambda_对 & = \frac{f(t_2) - f(t_1)}{f(t_3) - f(t_1)} \\
+& = \frac{\log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t_2}{t_\mathrm{min}} \right) - \log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t_1}{t_\mathrm{min}} \right)}{\log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t_3}{t_\mathrm{min}} \right) - \log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t_1}{t_\mathrm{min}} \right)} \\
+& = \frac{\log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t_2}{t_1} \right)}{\log_{\left( \frac{t_\mathrm{max}}{t_\mathrm{min}} \right)} \left( \frac{t_3}{t_1} \right)} \\
 & = \log_{\left( \frac{t_3}{t_1} \right)} \left( \frac{t_2}{t_1} \right)
 \end{aligned}
 $$
@@ -81,7 +82,7 @@ $$
 现在让我们带入数据：
 
 $$
-\lambda_对 = \log_{\left( \frac{35}{14} \right)} \left( \frac{9}{7} \right) \approx 27.43 \\%
+\lambda_对 = \log_{\left( \frac{35}{14} \right)} \left( \frac{9}{7} \right) \approx 27.43 \%
 $$
 
 于是我们就得到了一个更符合人的感受的答案。这个值约为线性时间下的 1.44 倍。
