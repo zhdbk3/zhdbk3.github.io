@@ -29,7 +29,7 @@ function getFormattedInterval(time) {
 }
 
 // 在页脚插入需要的元素
-document.getElementById('footer-wrap').innerHTML +=
+document.getElementsByClassName('footer-other')[0].innerHTML +=
     '<div>本站已运行 <span id="website-runtime"></span></div>' +
     '<i>每一个不曾起舞的日子，都是对生命的辜负。</i>';
 
