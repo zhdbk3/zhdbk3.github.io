@@ -93,7 +93,7 @@ footer_img: false
 
 # Website Background
 # Can set it to color or image url
-background: /img/bg.png
+background: img/bg/mahiro_1.avif
 
 cover:
   # Disable the cover or not
@@ -1039,6 +1039,7 @@ inject:
   bottom:
     - <script type="module" src="/js/subtitle.js"></script>
     - <script src="/js/runtime.js"></script>
+    - <script src="/js/bg.js"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
