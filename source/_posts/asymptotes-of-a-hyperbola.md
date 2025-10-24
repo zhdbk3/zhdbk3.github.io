@@ -24,7 +24,7 @@ $$
 
 还是以焦点在 $x$ 轴上的双曲线 $\displaystyle \frac{x^2}{a^2} - \frac{y^2}{b^2} = 1 ~ (a, b > 0)$ 为例，我们记它为 $C'$。曲线 $C$（期望是反比例函数图像）经过某种线性变换后得到 $C'$。
 
-这里，我们做一个尝试，由于 $C'$ 的渐近线为 $y = \pm \frac{b}{a} x$，我们不妨将 $\displaystyle \binom{1}{0}$ 变换到 $\displaystyle \binom{a}{-b}$，将 $\displaystyle \binom{0}{1}$ 变换到 $\displaystyle \binom{a}{b}$，即该线性变换的矩阵 $\boldsymbol{A}$ 为：
+这里，我们做一个尝试，由于 $C'$ 的渐近线为 $\displaystyle y = \pm \frac{b}{a} x$，我们不妨将 $\displaystyle \binom{1}{0}$ 变换到 $\displaystyle \binom{a}{-b}$，将 $\displaystyle \binom{0}{1}$ 变换到 $\displaystyle \binom{a}{b}$，即该线性变换的矩阵 $\boldsymbol{A}$ 为：
 
 $$
 \boldsymbol{A} = \begin{bmatrix}
