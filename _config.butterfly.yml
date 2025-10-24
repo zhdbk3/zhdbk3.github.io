@@ -1049,14 +1049,14 @@ CDN:
   # Note: Dev version can only use 'local' for internal scripts
   # Note: When setting third-party scripts to 'local', you need to install hexo-butterfly-extjs
   internal_provider: local
-  third_party_provider: custom
+  third_party_provider: unpkg
 
   # Add version number to url, true or false
   version: false
 
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format:
 
   option:
   # abcjs_basic_js:
@@ -1083,7 +1083,7 @@ CDN:
   # fancybox:
   # fancybox_css:
   # fireworks:
-    fontawesome: https://cdn.staticfile.org/font-awesome/7.0.0/css/all.min.css
+  # fontawesome:
   # gitalk:
   # gitalk_css:
   # giscus:
