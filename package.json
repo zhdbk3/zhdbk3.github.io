@@ -9,11 +9,11 @@
     "server": "hexo server"
   },
   "hexo": {
-    "version": "7.3.0"
+    "version": "8.0.0"
   },
   "dependencies": {
     "@renbaoshuo/markdown-it-katex": "^2.0.2",
-    "hexo": "^7.3.0",
+    "hexo": "^8.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
@@ -25,10 +25,10 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-theme-butterfly": "^5.4.3",
+    "hexo-theme-butterfly": "^5.5.1",
     "hexo-util": "^3.3.0",
     "hexo-wordcount": "^6.0.1",
-    "katex": "^0.16.22",
+    "katex": "^0.16.25",
     "markdown-it-footnote": "^4.0.0",
     "moment-timezone": "^0.6.0"
   }

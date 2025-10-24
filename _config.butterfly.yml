@@ -1056,7 +1056,7 @@ CDN:
 
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format: https://cdn.bootcdn.net/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
 
   option:
   # abcjs_basic_js:
@@ -1083,14 +1083,14 @@ CDN:
   # fancybox:
   # fancybox_css:
   # fireworks:
-  # fontawesome:
+    fontawesome: https://cdn.staticfile.org/font-awesome/7.0.0/css/all.min.css
   # gitalk:
   # gitalk_css:
   # giscus:
   # instantpage:
   # instantsearch:
-    katex: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.9/katex.min.css
-    katex_copytex: https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js
+  # katex:
+  # katex_copytex:
   # lazyload:
   # local_search:
   # main:
