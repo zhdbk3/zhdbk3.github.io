@@ -49,6 +49,7 @@ code_blocks:
 social:
   fab fa-github: https://github.com/zhdbk3 || GitHub
   fab fa-bilibili: https://space.bilibili.com/551409211 || 哔哩哔哩 || '#fb7299'
+  fa-solid fa-feed: /atom.xml || Atom || orange
 
 # --------------------------------------
 # Image Settings
