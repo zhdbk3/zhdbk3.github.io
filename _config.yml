@@ -123,7 +123,42 @@ search:
   field: all
   content: true
 
+# hexo-renderer-markdown-it
+# https://github.com/hexojs/hexo-renderer-markdown-it
 markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: false
+    langPrefix: 'language-'
+    breaks: true
+    linkify: true
+    typographer: false
+    # quotes: '“”‘’'
+  enable_rules:
+  disable_rules:
   plugins:
     - markdown-it-footnote
     - '@renbaoshuo/markdown-it-katex'
+  anchors:
+    # Minimum level for ID creation. (Ex. h1 to h6)
+    level: 1
+    # A suffix that is prepended to the number given if the ID is repeated.
+    collisionSuffix: ''
+    # If `true`, creates an anchor tag with a permalink besides the heading.
+    permalink: false
+    # Class used for the permalink anchor tag.
+    permalinkClass: header-anchor
+    # Set to 'right' to add permalink after heading
+    permalinkSide: 'left'
+    # The symbol used to make the permalink
+    permalinkSymbol: '#'
+    # Transform anchor to (1) lower case; (2) upper case
+    case: 1
+    # Replace space with a character
+    separator: '-'
+  images:
+    lazyload: false
+    prepend_root: false
+    post_asset: false
+  inline: false  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
