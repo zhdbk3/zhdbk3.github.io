@@ -809,8 +809,8 @@ beautify:
 font:
   global_font_size: 16px
   code_font_size: 14px
-  font_family:
-  code_font_family: "'Cascadia Mono', consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei', sans-serif"
+  font_family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'Microsoft YaHei', sans-serif
+  code_font_family: "'Cascadia Mono', consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', monospace, sans-serif"
 
 # Font settings for the site title and site subtitle
 blog_title_font:
