@@ -3,7 +3,7 @@ title: 修复 Hexo Butterfly 中 MathJax 块级公式顶部被截断的问题
 date: 2025-06-19 13:30
 updated: 2025-8-1 10:50
 category: 技术
-tags: [ 前端, CSS ]
+tags: [ 前端 ]
 description: 搞了好几天，原来就一句 CSS 的事 qwq
 cover: /img/mathjax-top-cut-off.png
 ---
