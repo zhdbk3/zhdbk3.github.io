@@ -18,7 +18,6 @@ const charPairs = [
 function toggleQuotesInAnElement(el) {
   let text = el.innerHTML; // 使用 innerHTML 而不是 innerText，以避免破坏原有结构
   for (const pair of charPairs) {
-    console.log(pair);
     if (squareQuotes) {
       text = text.replaceAll(pair[0], pair[1]);
     } else {
