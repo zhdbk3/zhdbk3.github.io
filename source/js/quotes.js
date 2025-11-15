@@ -35,7 +35,7 @@ function toggleQuotes() {
   squareQuotes = !squareQuotes;
   localStorage.setItem('squareQuotes', squareQuotes.toString());
   document
-    .querySelectorAll('a.article-title, div.content, h1.post-title, article p')
+    .querySelectorAll('a.article-title, div.content, h1.post-title, article p, article li')
     .forEach(toggleQuotesInAnElement);
 }
 
