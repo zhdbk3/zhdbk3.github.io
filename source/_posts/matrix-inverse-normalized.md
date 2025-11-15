@@ -2,7 +2,7 @@
 title: 遥遥领先！归一化矩阵伪逆——当前照片测星定位中精度最高的天顶确定算法（计算多条直线的同一交点）
 date: 2025-08-02 11:45
 category: 数学
-tags: [ 线性代数 ]
+tags: [线性代数]
 description: 发明天才的可真是个矩阵伪逆。
 ---
 
@@ -22,25 +22,25 @@ description: 发明天才的可真是个矩阵伪逆。
 
 ### 无畸变
 
-| 排名 | 方法                                                                                                                                                           | 平均误差   | 95%置信区间          |
-|----|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|------------------|
-| 1  | [matrix_inverse_normalized](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/matrix_inverse_normalized.py) | 3.953  | (3.831, 4.076)   |
-| 2  | [matrix_inverse](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/matrix_inverse.py)                       | 8.022  | (7.807, 8.237)   |
-| 3  | [sphere](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/sphere.py)                                       | 8.025  | (7.810, 8.240)   |
-| 4  | [median2](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/median2.py)                                     | 9.375  | (9.114, 9.635)   |
-| 5  | [median](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/median.py)                                       | 9.548  | (9.283, 9.812)   |
-| 6  | [least_square](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/least_square.py)                           | 11.964 | (11.057, 12.872) |
+| 排名 | 方法                                                                                                                                                         | 平均误差 | 95%置信区间      |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ---------------- |
+| 1    | [matrix_inverse_normalized](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/matrix_inverse_normalized.py) | 3.953    | (3.831, 4.076)   |
+| 2    | [matrix_inverse](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/matrix_inverse.py)                       | 8.022    | (7.807, 8.237)   |
+| 3    | [sphere](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/sphere.py)                                       | 8.025    | (7.810, 8.240)   |
+| 4    | [median2](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/median2.py)                                     | 9.375    | (9.114, 9.635)   |
+| 5    | [median](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/median.py)                                       | 9.548    | (9.283, 9.812)   |
+| 6    | [least_square](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/least_square.py)                           | 11.964   | (11.057, 12.872) |
 
 ### 有畸变
 
-| 排名 | 方法                                                                                                                                                           | 平均误差   | 95%置信区间          |
-|----|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|------------------|
-| 1  | [matrix_inverse_normalized](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/matrix_inverse_normalized.py) | 10.628 | (10.226, 11.030) |
-| 2  | [matrix_inverse](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/matrix_inverse.py)                       | 37.666 | (37.043, 38.289) |
-| 3  | [sphere](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/sphere.py)                                       | 37.699 | (37.076, 38.323) |
-| 4  | [median2](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/median2.py)                                     | 47.518 | (46.607, 48.430) |
-| 5  | [median](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/median.py)                                       | 50.080 | (49.129, 51.031) |
-| 6  | [least_square](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/least_square.py)                           | 62.304 | (61.098, 63.511) |
+| 排名 | 方法                                                                                                                                                         | 平均误差 | 95%置信区间      |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ---------------- |
+| 1    | [matrix_inverse_normalized](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/matrix_inverse_normalized.py) | 10.628   | (10.226, 11.030) |
+| 2    | [matrix_inverse](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/matrix_inverse.py)                       | 37.666   | (37.043, 38.289) |
+| 3    | [sphere](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/sphere.py)                                       | 37.699   | (37.076, 38.323) |
+| 4    | [median2](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/median2.py)                                     | 47.518   | (46.607, 48.430) |
+| 5    | [median](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/median.py)                                       | 50.080   | (49.129, 51.031) |
+| 6    | [least_square](https://github.com/BengbuGuards/StarLocator/blob/main/prototype/core/positioning/top_point/methods/least_square.py)                           | 62.304   | (61.098, 63.511) |
 
 数据来源：[灭点计算误差测试框架](https://github.com/BengbuGuards/StarLocator/tree/main/prototype/core/positioning/top_point)
 

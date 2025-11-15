@@ -2,7 +2,7 @@
 title: 转瞬即逝的霞光
 date: 2025-11-15 14:15
 category: 人文
-tags: [ 散文, 自我 ]
+tags: [散文, 自我]
 description: “花开堪折直须折，莫待无花空折枝。”
 ---
 

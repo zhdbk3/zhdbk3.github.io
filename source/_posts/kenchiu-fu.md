@@ -3,7 +3,7 @@ title: 可橙赋
 date: 2025-07-18 11:40
 updated: 2025-7-18 15:35
 category: 人文
-tags: [ 文言, 性少数, 反封建 ]
+tags: [文言, 性少数, 反封建]
 description: 星陨犹闻声，草腐孰知痛？
 cover: https://avatars0.githubusercontent.com/u/27522149
 ---

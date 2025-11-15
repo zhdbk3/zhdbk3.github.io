@@ -743,23 +743,24 @@ site_verification:
 # Notice: color value must in double quotes like "#000" or may cause error!
 
 # 我美术水平太差了 qwq，这里是 DeepSeek 设计的
+# prettier-ignore
 theme_color:
   enable: true
-  main: "#FF9EB0"    # 主樱花粉 - 用于标题/重点元素
-  paginator: "#7FC7FF" # 柔和天空蓝 - 分页器颜色
-  button_hover: "#FF6B9C" # 莓果粉 - 按钮悬停效果
-  text_selection: "#FFD1DC" # 浅粉红 - 文字选中背景
-  link_color: "#FF9EB0"    # 与主色一致
-  meta_color: "#A8A8A8"    # 中灰色 - 辅助信息
-  hr_color: "#FFC2CD"      # 浅粉分割线
-  code_foreground: "#E95464" # 深粉红 - 代码文字
-  code_background: "#FFF0F5" # 浅粉白 - 代码背景(确保可读性)
-  toc_color: "#7FC7FF"     # 与分页器同款蓝色
-  blockquote_padding_color: "#FF9EB0" # 主色左侧标
-  blockquote_background_color: "#FFF5F7" # 极浅粉背景
-  scrollbar_color: "#FFB6C1" # 中等粉红
-  meta_theme_color_light: "#FFFAFC" # 极浅粉白
-  meta_theme_color_dark: "#2A1A2C"  # 深紫粉夜间模式
+  main: '#FF9EB0'                        # 主樱花粉 - 用于标题/重点元素
+  paginator: '#7FC7FF'                   # 柔和天空蓝 - 分页器颜色
+  button_hover: '#FF6B9C'                # 莓果粉 - 按钮悬停效果
+  text_selection: '#FFD1DC'              # 浅粉红 - 文字选中背景
+  link_color: '#FF9EB0'                  # 与主色一致
+  meta_color: '#A8A8A8'                  # 中灰色 - 辅助信息
+  hr_color: '#FFC2CD'                    # 浅粉分割线
+  code_foreground: '#E95464'             # 深粉红 - 代码文字
+  code_background: '#FFF0F5'             # 浅粉白 - 代码背景（确保可读性）
+  toc_color: '#7FC7FF'                   # 与分页器同款蓝色
+  blockquote_padding_color: '#FF9EB0'    # 主色左侧标
+  blockquote_background_color: '#FFF5F7' # 极浅粉背景
+  scrollbar_color: '#FFB6C1'             # 中等粉红
+  meta_theme_color_light: '#FFFAFC'      # 极浅粉白
+  meta_theme_color_dark: '#2A1A2C'       # 深紫粉夜间模式
 
 # The user interface setting of category and tag page
 # Choose: index - same as Homepage UI / default - same as archives UI

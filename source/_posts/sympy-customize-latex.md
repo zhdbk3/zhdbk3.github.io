@@ -3,7 +3,7 @@ title: SymPy 自定义某些数据类型的 LaTeX
 date: 2025-07-14 22:40
 updated: 2025-07-15 11:30
 category: 技术
-tags: [ Python ]
+tags: [Python]
 description: 给向量以矩阵，而不是给矩阵以向量。
 ---
 

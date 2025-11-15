@@ -3,7 +3,7 @@ title: 证明：求解超定方程组时，通过构造正规方程得到的解�
 date: 2025-07-31 22:40
 updated: 2025-8-2 9:23
 category: 数学
-tags: [ 线性代数 ]
+tags: [线性代数]
 description: 哎呀~ 几何法得了 MVP！
 ---
 
