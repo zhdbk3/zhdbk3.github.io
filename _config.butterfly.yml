@@ -1042,6 +1042,7 @@ inject:
     - <script type="module" src="/js/subtitle.js"></script>
     - <script src="/js/runtime.js"></script>
     - <script src="/js/bg.js"></script>
+    - <script src="/js/quotes.js"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
