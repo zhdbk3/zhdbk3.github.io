@@ -1,9 +1,9 @@
 ---
 title: 弯引号和直角引号的切换（以 Hexo Butterfly 为例）
 date: 2025-11-16 16:00
+updated: 2025-11-16 16:15
 category: 技术
 tags: [前端]
-description:
 ---
 
 # 前言
@@ -65,7 +65,8 @@ function toggleQuotes() {
   squareQuotes = !squareQuotes;
   document
     .querySelectorAll(
-      'div#site-subtitle, a.article-title, div.content, h1.post-title, ol.toc, article p, article li, ' +
+      'div#site-subtitle, a.article-title, div.content, ' +
+        'span.site-name, h1.post-title, ol.toc, article p, article li, ' +
         'article h1, article h2, article h3, article h4, article h5, article h6',
       // 标题的 id 不应被替换，故采用这种写法
       // 右侧导航（ol.toc）内锚点的特殊字符均被转义，故不需要考虑
@@ -81,6 +82,7 @@ function toggleQuotes() {
   - `a.article-title`：文章标题
   - `div.content`：文章摘要
 - 文章页面：
+  - `span.site-name`：最上面导航栏里显示的文章标题
   - `h1.post-title`：文章大标题
   - `ol.toc`：右侧目录
   - `article p, article li`：文章内的正文
@@ -180,7 +182,8 @@ toggleQuotes();
     localStorage.setItem('squareQuotes', squareQuotes.toString());
     document
       .querySelectorAll(
-        'div#site-subtitle, a.article-title, div.content, h1.post-title, ol.toc, article p, article li, ' +
+        'div#site-subtitle, a.article-title, div.content, ' +
+          'span.site-name, h1.post-title, ol.toc, article p, article li, ' +
           'article h1, article h2, article h3, article h4, article h5, article h6',
         // 标题的 id 不应被替换，故采用这种写法
         // 右侧导航（ol.toc）内锚点的特殊字符均被转义，故不需要考虑

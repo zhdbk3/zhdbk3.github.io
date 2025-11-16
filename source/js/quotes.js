@@ -36,7 +36,8 @@
     localStorage.setItem('squareQuotes', squareQuotes.toString());
     document
       .querySelectorAll(
-        'div#site-subtitle, a.article-title, div.content, h1.post-title, ol.toc, article p, article li, ' +
+        'div#site-subtitle, a.article-title, div.content, ' +
+          'span.site-name, h1.post-title, ol.toc, article p, article li, ' +
           'article h1, article h2, article h3, article h4, article h5, article h6',
         // 标题的 id 不应被替换，故采用这种写法
         // 右侧导航（ol.toc）内锚点的特殊字符均被转义，故不需要考虑
