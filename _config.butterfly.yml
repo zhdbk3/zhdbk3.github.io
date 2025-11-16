@@ -1039,10 +1039,10 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/fonts.css">
   bottom:
-    - <script type="module" src="/js/subtitle.js"></script>
     - <script src="/js/runtime.js"></script>
-    - <script src="/js/bg.js"></script>
+    - <script src="/js/subtitle.js"></script>
     - <script src="/js/quotes.js"></script>
+    - <script src="/js/bg.js" defer></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
