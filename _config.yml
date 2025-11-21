@@ -67,7 +67,22 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  技术: tech
+  数学: math
+  人文: humanities
 tag_map:
+  Python: python
+  前端: frontend
+  函数: function
+  立体几何: solid-geometry
+  线性代数: linear-algebra
+  议论: argumentation
+  散文: prose
+  文言: classical-chinese
+  诗词: poetry
+  自我: self
+  反封建: anti-feudalism
+  性少数: sexual-minority
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
