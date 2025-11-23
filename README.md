@@ -4,7 +4,7 @@ https://zhdbk3.github.io/
 
 ## 许可证
 
-`source/_posts/` 下的内容（即博客文章）默认采用 [CC NC-BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证。特别地，对于文章中的代码块，默认采用 [MIT](https://github.com/zhdbk3/zhdbk3.github.io/blob/main/LICENSE) 许可证。有特别声明使用其他许可证的，使用声明的许可证。
+`source/_posts/` 下的内容（即博客文章）与 `source/about/index.md`（即关于页面）默认采用 [CC NC-BY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证。特别地，对于文章中的代码块，默认采用 [MIT](https://github.com/zhdbk3/zhdbk3.github.io/blob/main/LICENSE) 许可证。有特别声明使用其他许可证的，使用声明的许可证。
 
 引用的其他人的资源（如背景图片等），版权归原作者所有，许可方式见原作者规定。
 
