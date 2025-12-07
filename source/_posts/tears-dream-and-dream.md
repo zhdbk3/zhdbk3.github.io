@@ -2,6 +2,7 @@
 title: 泪、梦与梦
 date: 2025-09-23 13:35
 updated: 2025-10-3 10:30
+category: 人文
 tags: [散文, 自我, 反封建]
 description: 记我人生中最可怕的一场噩梦。
 ---
