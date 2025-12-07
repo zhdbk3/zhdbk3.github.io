@@ -37,7 +37,7 @@ title: 关于我 着火的冰块nya
 
 猫猫从小就对宇宙什么的很感兴趣~
 
-初三时看到了[鬼蝉](https://space.bilibili.com/195741)大佬的[照片测星定位 (Photographical Astronomical Positioning)](https://www.bilibili.com/video/BV1Dx4y117yM)，心里顿时产生了一种奇妙的感觉♡。于是冲破艰难险阻，学习了相关知识并独立用编程实现了照片测星定位：
+初三时看到了[鬼蝉](https://space.bilibili.com/195741)大佬的[照片测星定位（Photographical Astronomical Positioning）](https://www.bilibili.com/video/BV1Dx4y117yM)，心里顿时产生了一种奇妙的感觉♡。于是冲破艰难险阻，学习了相关知识并独立用编程实现了照片测星定位：
 
 - [[开源]照片测星定位！一张星空照片就能算出你的位置！](https://www.bilibili.com/video/BV124akeTEEQ)
 
@@ -45,7 +45,7 @@ title: 关于我 着火的冰块nya
 
 > 有up主这样的初中生（现在已经是高中了吧，恭喜！）能自己学习相关的数学知识并编程完成测星定位，而有的人到中年的老fw还在整天信口雌黄肆意造谣，足以见得这个世界的参差。这说明我们的国家会越来越好，像潼关古道这样沉溺在自己幻想中不愿醒来、还想把别人一起拉下水的无药可救的东西只需要慢慢地老死、病死就可以了，我们国家的未来充满希望。
 
-后来参与了 [StarLocator](https://www.bilibili.com/video/BV1ZcyCYTE5u) 的早期开发~~（尽管贡献并不是很大 qwq）~~。
+后来参与了 [StarLocator](https://www.bilibili.com/video/BV1ZcyCYTE5u) 的早期开发<s>（尽管贡献并不是很大 qwq）</s>。
 
 关于照片测星定位，我还制作了原理讲解视频！推荐来看看哦：
 

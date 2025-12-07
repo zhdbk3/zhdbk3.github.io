@@ -30,7 +30,8 @@ description: 感觉和 pnpm 的逻辑好像，就连安装时遇到的困难也�
 直接执行安装的命令，会从 GitHub 上下载二进制文件，那速度几乎为零。该命令的实质是从网上下载并执行一个安装脚本，安装脚本从 GitHub 下载二进制文件再安装。那么我们只要修改脚本里的下载地址就行了：
 
 1. 下载 https://astral.sh/uv/install.ps1 到本地
-2. 查找里面的 https://github.com，并**在前面加上（不是替换，原 GitHub 地址要保留！）\*\* GitHub 加速站的地址（例如 https://github.akams.cn/ ）
+2. <!-- prettier-ignore -->
+   查找里面的 https://github.com，并**在前面加上（不是替换，原 GitHub 地址要保留！）** GitHub 加速站的地址（例如 https://github.akams.cn/ ）
 3. 在 PowerShell 运行该脚本（如果有权限问题无法运行的话，按照提示修改权限即可）
 
 ## Arch Linux

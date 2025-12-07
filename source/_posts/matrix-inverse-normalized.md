@@ -14,7 +14,7 @@ description: 发明天才的可真是个矩阵伪逆。
 
 **现有平面上多条直线相交于同一点，已知每条直线上两点坐标（但是有误差），如何求出这个交点？**
 
-# 归一化矩阵伪逆 (matrix_inverse_normalized)
+# 归一化矩阵伪逆（matrix_inverse_normalized）
 
 ## 简介
 
