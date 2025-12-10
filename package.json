@@ -29,7 +29,7 @@
     "hexo-theme-butterfly": "^5.5.3",
     "hexo-util": "^4.0.0",
     "hexo-wordcount": "^6.0.1",
-    "katex": "^0.16.25",
+    "katex": "^0.16.27",
     "markdown-it-footnote": "^4.0.0",
     "moment-timezone": "^0.6.0"
   },
