@@ -91,9 +91,3 @@ div#archive {
 .card-info-social-icons i:hover {
   transform: rotate(0) !important;
 }
-
-/* 背景图居中 */
-#web_bg {
-  background-position: center !important;
-  background-size: cover !important;
-}

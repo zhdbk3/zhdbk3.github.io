@@ -93,8 +93,13 @@ category_per_img:
 footer_img: false
 
 # Website Background
-# Can set it to color or image url
-background: url()
+# Can set it to color, image URL or an array containing colors and/or image URLs
+# If an array is provided, a random background will be selected from the array on each load
+background:
+  - /img/bg/mahiro_1.avif
+  - /img/bg/mahiro_2.avif
+  - /img/bg/mahiro_3.avif
+  - /img/bg/nachoneko_1.avif
 
 cover:
   # Disable the cover or not
@@ -1042,7 +1047,6 @@ inject:
     - <script src="/js/runtime.js"></script>
     - <script src="/js/subtitle.js"></script>
     - <script src="/js/quotes.js"></script>
-    - <script src="/js/bg.js" defer></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
