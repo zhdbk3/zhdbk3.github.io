@@ -35,7 +35,7 @@ title: 关于我 着火的冰块nya
 
 ~~（只是叶公好龙，没正经学过啥东西）~~
 
-猫猫从小就对宇宙什么的很感兴趣~
+咱喵从小就对宇宙什么的很感兴趣~
 
 初三时看到了[鬼蝉](https://space.bilibili.com/195741)大佬的[照片测星定位（Photographical Astronomical Positioning）](https://www.bilibili.com/video/BV1Dx4y117yM)，心里顿时产生了一种奇妙的感觉♡。于是冲破艰难险阻，学习了相关知识并独立用编程实现了照片测星定位：
 

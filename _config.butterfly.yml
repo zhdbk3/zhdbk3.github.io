@@ -294,7 +294,7 @@ aside:
     button:
       enable: true
       icon: fab fa-bilibili
-      text: 灌注猫猫
+      text: 灌注咱喵谢谢喵
       link: https://space.bilibili.com/551409211
   card_announcement:
     enable: false
