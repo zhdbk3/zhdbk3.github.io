@@ -20,7 +20,7 @@ https://zhdbk3.github.io/
 | :----------------: | :------------------------------------------------------------------------: | :---------------------------------------------------------------: | :----------------------------------------------: |
 | `nachoneko_1.avif` |                                    nya~                                    |         https://x.com/amsrntk3/status/1898002137445024099         | [甘城なつき/Nachoneko💤](https://x.com/amsrntk3) |
 |  `mahiro_1.avif`   |                          绪山真寻 Oyama Mahiro 4K                          | https://steamcommunity.com/sharedfiles/filedetails/?id=3012053777 |                      ElPelo                      |
-|  `mahiro_2.avif`   | [onimai] 别当欧尼酱了 真寻&美波里 最終话结尾高淸修复 お兄ちやんはおしまい! | https://steamcommunity.com/sharedfiles/filedetails/?id=2952027203 |                   冬日DongRi.                    |
+|  `mahiro_2.avif`   | [onimai] 别当欧尼酱了 真寻&美波里 最終话结尾高淸修复 お兄ちゃんはおしまい! | https://steamcommunity.com/sharedfiles/filedetails/?id=2952027203 |                   冬日DongRi.                    |
 |  `mahiro_3.avif`   |                           真寻与美波里的下午时光                           | https://steamcommunity.com/sharedfiles/filedetails/?id=2951381978 |                       啬鬼                       |
 
 我（或我的朋友）是在哪里找到它们的：
