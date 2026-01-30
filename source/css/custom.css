@@ -94,6 +94,6 @@ div#archive {
 
 /* 文字排版 */
 body {
-  text-autospace: normal; /* Butterfly 已包含，新版本发布后可删 */
+  text-autospace: normal;
   text-spacing-trim: normal; /* 标点挤压，但是 Firefox 不支持（恼） */
 }
