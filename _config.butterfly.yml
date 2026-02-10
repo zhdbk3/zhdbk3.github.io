@@ -96,10 +96,13 @@ footer_img: false
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
 background:
-  - /img/bg/mahiro_1.avif
-  - /img/bg/mahiro_2.avif
-  - /img/bg/mahiro_3.avif
-  - /img/bg/nachoneko_1.avif
+  - /img/bg/mahiro/1.avif
+  - /img/bg/mahiro/2.avif
+  - /img/bg/mahiro/3.avif
+  - /img/bg/nachoneko/1.avif
+  - /img/bg/nagato/1.avif
+  - /img/bg/yukikaze/1.avif
+  - /img/bg/others/zaoliang.avif
 
 cover:
   # Disable the cover or not
