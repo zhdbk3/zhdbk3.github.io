@@ -103,6 +103,7 @@ background:
   - /img/bg/nagato/1.avif
   - /img/bg/yukikaze/1.avif
   - /img/bg/others/zaoliang.avif
+  - /img/bg/others/mirror.avif
 
 cover:
   # Disable the cover or not

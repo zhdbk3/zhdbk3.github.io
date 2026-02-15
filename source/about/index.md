@@ -124,9 +124,10 @@ _请记住我。_
 |    `mahiro/2.avif`     |    [冬日DongRi.](https://steamcommunity.com/id/dongriiiii/myworkshopfiles/?appid=431960)    | [[onimai]别当欧尼酱了 真寻&美波里 最终话结尾高清修复 お兄ちゃんはおしまい！](https://steamcommunity.com/sharedfiles/filedetails/?id=2952027203) |
 |    `mahiro/3.avif`     | [啬鬼](https://steamcommunity.com/profiles/76561199130293832/myworkshopfiles/?appid=431960) |                           [真寻与美波里的下午时光](https://steamcommunity.com/sharedfiles/filedetails/?id=2951381978)                           |
 |   `nachoneko/1.avif`   |                      [甘城なつき/Nachoneko💤](https://x.com/amsrntk3)                       |                                            [nya~](https://x.com/amsrntk3/status/1898002137445024099)                                            |
-|    `nagato/1.avif`     |                     [喵玥-Naycot](https://www.pixiv.net/users/17334078)                     |                                                                   似乎已删除                                                                    |
+|    `nagato/1.avif`     |               _（可能是）_[喵玥-Naycot](https://www.pixiv.net/users/17334078)               |                                                                     _不明_                                                                      |
 |   `yukikaze/1.avif`    |                        [PDXen](https://www.pixiv.net/users/11945252)                        |                                                 [雪風](https://www.pixiv.net/artworks/70416814)                                                 |
 | `others/zaoliang.avif` |                       [guo582](https://www.pixiv.net/users/11434775)                        |                                                 [早凉](https://www.pixiv.net/artworks/93674438)                                                 |
+|  `others/mirror.avif`  |                                           _不明_                                            |                                                                     _不明_                                                                      |
 
 可能对你有用的地方：
 
