@@ -97,3 +97,17 @@ body {
   text-autospace: normal;
   text-spacing-trim: normal; /* 标点挤压，但是 Firefox 不支持（恼） */
 }
+
+/* 注音 */
+ruby > rt {
+  font-size: 60%;
+  font-weight: normal;
+}
+
+ruby.under {
+  ruby-position: under;
+}
+
+ruby.under > rt {
+  color: var(--blockquote-color);
+}
