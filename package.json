@@ -31,7 +31,7 @@
     "hexo-wordcount": "^6.0.1",
     "katex": "^0.16.38",
     "markdown-it-footnote": "^4.0.0",
-    "moment-timezone": "^0.6.0"
+    "moment-timezone": "^0.6.1"
   },
   "devDependencies": {
     "prettier": "3.8.1"
