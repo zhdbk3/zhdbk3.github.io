@@ -63,6 +63,10 @@ hexo.extend.filter.register('before_post_render', function (data) {
           return `<ruby>${base}<rt>${over}</rt></ruby>`;
         } else if (under) {
           return `<ruby class="under">${base}<rt>${under}</rt></ruby>`;
+        } else {
+          // 如果没有标注则返回原文本
+          // 666 不然给我文档内 CSS 吃了
+          return '{' + base + '}';
         }
       });
     }
