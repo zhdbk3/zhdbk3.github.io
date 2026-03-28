@@ -1,7 +1,7 @@
 ---
 title: 红杏
 date: 2025-11-20 12:15
-updated: 2025-3-28 21:25
+updated: 2026-3-28 21:25
 category: 人文
 tags: [诗词, 反封建, 性少数]
 description: 2025 跨性别纪念日赋诗一首。
