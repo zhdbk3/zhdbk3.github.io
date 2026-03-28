@@ -1,6 +1,7 @@
 ---
 title: 红杏
 date: 2025-11-20 12:15
+updated: 2025-3-28 21:25
 category: 人文
 tags: [诗词, 反封建, 性少数]
 description: 2025 跨性别纪念日赋诗一首。
@@ -35,3 +36,25 @@ _第 27 个跨性别纪念日_
 ## 2026-1-20 有感
 
 “未及星霜催花老，风袭枝头先落红。”当时写的时候，写到这，脑子里就自然而然地蹦出了这两句，便提笔写下来（其实是拿起键盘敲下来，但这样说感觉好怪啊 www），后来也没想多少。直到今天，又偶然读到了许多年前学过的“夜来风雨声，花落知多少”，便突然感到一阵来自好久以前的触动，我的句子，大概就来源于此？以前理解不了的孟浩然的隐隐的惋惜之意（王文濡《历代诗评注读本》：“描写春晓，而含有一种惋惜之意。惜落花乎？惜韶光耳。”），现在也突然就明白了。能和数千年前的古人产生心意的联系，真是件奇妙的事。也很庆幸我是中国人，母语是中文这么优美的语言。
+
+## English translation by [idadwind](https://www.idadwind.fun/)
+
+The noon sun blazes, the garden is deep,
+Where secrets of spring are for shadows to keep.
+But one restless branch, in a crimson-hued dare,
+Reaches over the wall for the wide, open air.
+
+She sought the world’s gaze, a wandering soul,
+Beyond the grey stones and the master's control.
+With petals like silk and a heart full of fire,
+She climbed for the heights of her lonely desire.
+
+But time is a thief that works far too fast,
+And the glory of morning was never to last.
+Long before winter could silver her head,
+Or white frosts of age turned her spirit to lead—
+
+A sudden, sharp gust caught the branch in its play,
+And swept all her velvet-red riches away.
+While those in the garden stayed safe in the gloom,
+The wind claimed the prize of the wandering bloom.
