@@ -2,7 +2,7 @@
 title: 樱下
 date: 2026-03-26 22:06
 category: 人文
-tags: [诗歌, 自我]
+tags: [诗词, 自我]
 description: 暖风送芳甜，晴日又同天。何日樱花下，再与共欢颜？
 ---
 
