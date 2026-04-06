@@ -111,3 +111,9 @@ ruby.under {
 ruby.under > rt {
   color: var(--blockquote-color);
 }
+
+/* Bilibili 视频嵌入 */
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+}

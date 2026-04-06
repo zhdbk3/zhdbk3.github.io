@@ -5,7 +5,10 @@ updated: 2026-4-6 10:15
 category: 人文
 tags: [诗词, 自我]
 description: 飞向夕阳，即使早已忘记来时的方向，忘记自己是谁，忘记为何飞翔。
+cover: /img/sunset-cover.avif
 ---
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116350831886366&bvid=BV18vSSBjEw8&cid=37275501414&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 <h1 style="text-align: center; padding-left: 0" id="飞向夕阳">飞向夕阳</h1>
 
