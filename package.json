@@ -29,11 +29,11 @@
     "hexo-theme-butterfly": "^5.5.4",
     "hexo-util": "^4.0.0",
     "hexo-wordcount": "^6.0.1",
-    "katex": "^0.16.40",
+    "katex": "^0.16.45",
     "markdown-it-footnote": "^4.0.0",
-    "moment-timezone": "^0.6.1"
+    "moment-timezone": "^0.6.2"
   },
   "devDependencies": {
-    "prettier": "3.8.1"
+    "prettier": "3.8.3"
   }
 }
