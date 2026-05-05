@@ -639,6 +639,7 @@ giscus:
   js: https://giscus.app/client.js
   option:
     data-input-position: top
+    data-lang: zh-CN
 
 # Remark42
 # https://remark42.com/docs/configuration/frontend/
