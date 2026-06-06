@@ -23,6 +23,7 @@ menu:
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
+  相册: /gallery/ || fas fa-images
 
 # --------------------------------------
 # Code Blocks Settings
@@ -820,7 +821,7 @@ beautify:
 font:
   global_font_size: 16px
   code_font_size: 14px
-  font_family: LXGW WenKai Screen, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'Microsoft YaHei', sans-serif
+  font_family: LXGW WenKai GB Screen, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'Microsoft YaHei', sans-serif
   code_font_family: "'Cascadia Mono', consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', monospace, sans-serif"
 
 # Font settings for the site title and site subtitle
