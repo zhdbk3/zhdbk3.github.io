@@ -26,10 +26,10 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-theme-butterfly": "^5.5.5",
+    "hexo-theme-butterfly": "^5.6.0",
     "hexo-util": "^4.0.0",
     "hexo-wordcount": "^6.0.1",
-    "katex": "^0.17.0",
+    "katex": "^0.18.0",
     "markdown-it-footnote": "^4.0.0",
     "moment-timezone": "^0.6.2"
   },

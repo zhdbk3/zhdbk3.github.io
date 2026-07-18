@@ -1,4 +1,6 @@
 allowBuilds:
   hexo-util: true
+minimumReleaseAgeExclude:
+  - katex@0.18.0
 onlyBuiltDependencies:
   - hexo-util
