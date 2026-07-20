@@ -63,8 +63,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       moment-timezone:
-        specifier: ^0.6.2
-        version: 0.6.2
+        specifier: ^0.6.3
+        version: 0.6.3
     devDependencies:
       prettier:
         specifier: 3.9.5
@@ -732,11 +732,11 @@ packages:
     resolution: {integrity: sha512-8/9XgYooMo7/q5tf6zGF4+Wp1jx5sbxV87uK6YvTq9rgDtusLWZCZ8c5C0EhYZbNGudul5EMeMsObO4Ug/gszg==}
     deprecated: This library has been deprecated in favor of micro-memoize, which as-of version 5 incorporates most of the functionality that this library offers at nearly half the size and better speed.
 
-  moment-timezone@0.5.46:
-    resolution: {integrity: sha512-ZXm9b36esbe7OmdABqIWJuBBiLLwAjrN7CE+7sYdCCx82Nabt1wHDj8TVseS59QIlfFPbOoiBPm6ca9BioG4hw==}
+  moment-timezone@0.5.48:
+    resolution: {integrity: sha512-f22b8LV1gbTO2ms2j2z13MuPogNoh5UzxL3nzNAYKGraILnbGc9NEE6dyiiiLv46DGRb8A4kg8UKWLjPthxBHw==}
 
-  moment-timezone@0.6.2:
-    resolution: {integrity: sha512-lDsQv8FoGdBUdf0+TjGsq2orxKuXdwFlQ6Zw6TX3xIcTwTfEpCLyKqvEauvCHJ8iu3KBV8+uPhlv70YsNGdUBQ==}
+  moment-timezone@0.6.3:
+    resolution: {integrity: sha512-pVEPA/HCFHHbwJ130ywnzYuZpkEGcP6Daa/OwNebpA18MybeFHmQilAGGovXgWijQ8vQtmud9jZrziUBgsykfg==}
 
   moment@2.30.1:
     resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
@@ -1522,7 +1522,7 @@ snapshots:
       hexo-renderer-pug: 3.0.0
       hexo-renderer-stylus: 3.0.1
       hexo-util: 4.0.0
-      moment-timezone: 0.6.2
+      moment-timezone: 0.6.3
     transitivePeerDependencies:
       - supports-color
 
@@ -1565,7 +1565,7 @@ snapshots:
       micromatch: 4.0.8
       moize: 6.1.7
       moment: 2.30.1
-      moment-timezone: 0.5.46
+      moment-timezone: 0.5.48
       nunjucks: 3.2.4(chokidar@3.6.0)
       picocolors: 1.1.1
       pretty-hrtime: 1.0.3
@@ -1764,11 +1764,11 @@ snapshots:
       fast-equals: 3.0.1
       micro-memoize: 4.1.2
 
-  moment-timezone@0.5.46:
+  moment-timezone@0.5.48:
     dependencies:
       moment: 2.30.1
 
-  moment-timezone@0.6.2:
+  moment-timezone@0.6.3:
     dependencies:
       moment: 2.30.1
 
