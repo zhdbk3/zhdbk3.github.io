@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@renbaoshuo/markdown-it-katex':
         specifier: ^2.0.2
-        version: 2.0.2(katex@0.18.9)(markdown-it@13.0.2)
+        version: 2.0.2(katex@0.19.0)(markdown-it@13.0.2)
       hexo:
         specifier: ^8.1.2
         version: 8.1.2(chokidar@3.6.0)
@@ -57,8 +57,8 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1
       katex:
-        specifier: ^0.18.9
-        version: 0.18.9
+        specifier: ^0.19.0
+        version: 0.19.0
       markdown-it-footnote:
         specifier: ^4.0.0
         version: 4.0.0
@@ -629,8 +629,8 @@ packages:
   jstransformer@1.0.0:
     resolution: {integrity: sha512-C9YK3Rf8q6VAPDCCU9fnqo3mAfOH6vUGnMcP4AQAYIEpWtfGLpwOTmZ+igtdK5y+VvI2n3CyYSzy4Qh34eq24A==}
 
-  katex@0.18.9:
-    resolution: {integrity: sha512-8ad9RyoKsb/g8/yLFE+KAlP+DhbCTRUNi/V9XGsxn0R+trJJltNwzcDNo0q/DEkOy5fQUQTAQyCXCYSE+OakTQ==}
+  katex@0.19.0:
+    resolution: {integrity: sha512-v6Tznz3zJ7u3niRCoDTsumM2+HA2XXcCu+WAacCeHD2z3p9A9Ks987o5FzfTGBN0e8A0vjEgIDvLbICrXpdw/Q==}
     hasBin: true
 
   linkify-it@4.0.1:
@@ -1065,9 +1065,9 @@ snapshots:
 
   '@nodable/entities@3.0.0': {}
 
-  '@renbaoshuo/markdown-it-katex@2.0.2(katex@0.18.9)(markdown-it@13.0.2)':
+  '@renbaoshuo/markdown-it-katex@2.0.2(katex@0.19.0)(markdown-it@13.0.2)':
     dependencies:
-      katex: 0.18.9
+      katex: 0.19.0
       markdown-it: 13.0.2
 
   a-sync-waterfall@1.0.1: {}
@@ -1678,7 +1678,7 @@ snapshots:
       is-promise: 2.2.2
       promise: 7.3.1
 
-  katex@0.18.9:
+  katex@0.19.0:
     dependencies:
       commander: 15.0.0
 
