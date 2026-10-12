@@ -23,7 +23,7 @@ menu:
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
-  相册: /gallery/ || fas fa-images
+#  相册: /gallery/ || fas fa-images
 
 # --------------------------------------
 # Code Blocks Settings
